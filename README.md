@@ -50,3 +50,8 @@ Eğer uygulamayı kendiniz derleyip `.exe` dosyasını üretmek istiyorsanız a�
 3. Derleyici araç zincirinin aktif olduğundan emin olun:
    ```cmd
    set PATH=C:\(KURULDUPU YER)\msys2\ucrt64\bin;%PATH%
+   ```
+4. Derlemeyi başlat
+   ```cmd
+   cargo tauri build
+   ```   
